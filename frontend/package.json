@@ -9,11 +9,10 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "build:web": "expo export -p web"
   },
-  "jest": {
-    "preset": "jest-expo"
-  },
+  "jest": { "preset": "jest-expo" },
   "dependencies": {
     "@expo-google-fonts/poppins": "^0.2.3",
     "@expo/vector-icons": "^14.0.2",
